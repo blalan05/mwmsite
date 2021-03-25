@@ -1,7 +1,6 @@
 <template>
   <div class="layout">
     <topNav></topNav>
-    <!-- <item-carousel></item-carousel> -->
     <main class="page__container">
       <slot />
     </main>
@@ -19,11 +18,9 @@ query {
 <script>
 import topNav from "@/components/topNav.vue";
 import mainFooter from "@/components/mainFooter.vue";
-import itemCarousel from "../components/itemCarousel.vue";
 export default {
   name: "DefaultLayout",
   components: {
-    itemCarousel,
     mainFooter,
     topNav,
   },
@@ -51,8 +48,5 @@ body {
   align-items: center;
   margin-bottom: 20px;
   height: 80px;
-}
-
-.page__container {
 }
 </style>

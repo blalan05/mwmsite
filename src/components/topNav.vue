@@ -375,10 +375,11 @@ export default {
         { text: "Contact", route: "/contact" },
         { text: "Careers", route: "/careers" },
       ],
-      windowWidth: window.innerWidth,
+      windowWidth: 0,
     };
   },
   mounted() {
+    this.windowWidth = window.innerWidth;
     window.addEventListener("resize", this.onResize);
   },
   methods: {
