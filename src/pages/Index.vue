@@ -1,6 +1,5 @@
 <template>
   <Layout>
-    <mega-menu></mega-menu>
     <div class="banner">
       <g-image
         alt="A Mill constructed by MWM as General Contractor"
@@ -8,6 +7,7 @@
         position="bottom right"
       ></g-image>
     </div>
+    <services></services>
     <div class="highlights__container-wrapper">
       <div class="highlights__container-con">
         <div class="highlights__container-item">
@@ -51,13 +51,14 @@
 </template>
 
 <script>
-import megaMenu from "../components/megaMenu.vue";
+import services from "@/components/services.vue";
+
 export default {
   metaInfo: {
     title: "Hello, world!",
   },
   components: {
-    megaMenu,
+    services,
   },
 };
 </script>
@@ -70,11 +71,14 @@ export default {
   width: 100%;
 }
 .highlights__container-wrapper {
-  background: #0000aa;
+  background: #000259;
+  background-image: url(~@/assets/highlights_bg.jpg);
   padding: 2.5em 0;
+  background-blend-mode: screen;
+  background-position: top center;
 }
 .highlights__container-wrapper div.highlights__container-con {
-  width: 88vw;
+  width: 88%;
   margin: 0 auto;
 }
 .highlights__container-wrapper div.highlights__container-item {
