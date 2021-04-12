@@ -8,7 +8,11 @@
     <g-image
       src="~/assets/SVG/mwm-bw.svg"
       alt="Midwest Welding & Manuacturing Logo"
-      :class="['bw-logo', { 'hide-logo': scrolled < 12 }]"
+      :class="[
+        'bw-logo',
+        { 'hide-logo': scrolled < 12 },
+        { scrolled: scrolled > 11 },
+      ]"
     />
   </div>
 </template>
@@ -27,9 +31,16 @@ export default {
 .full-logo,
 .bw-logo {
   position: absolute;
+  opacity: 1;
+  transition: all 0.3s;
   top: -20px;
   width: 75%;
   left: 25%;
+}
+.bw-logo.scrolled {
+  top: -48px;
+  width: 50%;
+  left: 33%;
 }
 .hide-logo {
   opacity: 0;

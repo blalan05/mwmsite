@@ -30,18 +30,14 @@ export default {
     topNav,
   },
   beforeDestroy() {
-    document
-      .getElementById("app")
-      .removeEventListener("scroll", this.handleScroll);
+    document.removeEventListener("scroll", this.handleScroll);
   },
   mounted() {
-    document
-      .getElementById("app")
-      .addEventListener("scroll", this.handleScroll);
+    document.addEventListener("scroll", this.handleScroll);
   },
   methods: {
     handleScroll(e) {
-      console.log("Scrolling");
+      this.scrolled = window.scrollY;
     },
   },
 };
@@ -65,6 +61,7 @@ body {
   max-width: 1080px;
   margin: auto;
   position: relative;
+  box-shadow: 0px 0px 4px 2px #1c1a1a;
 }
 
 .header {

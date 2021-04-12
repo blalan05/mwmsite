@@ -22,13 +22,15 @@
     </div>
     <div class="service__item">
       <h3>Feed Body Services</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint
-        aspernatur vero officiis! Aliquam optio minima atque, voluptatibus omnis
-        est laudantium excepturi debitis cumque accusamus similique quisquam
-        neque natus laborum magni possimus! Quae cupiditate provident quidem
-        aliquid! Aliquam cum quo dicta hic facilis dolore.
-      </p>
+      <div class="service__item-body">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint
+          aspernatur vero officiis! Aliquam optio minima atque, voluptatibus
+          omnis est laudantium excepturi debitis cumque accusamus similique
+          quisquam neque natus laborum magni possimus! Quae cupiditate provident
+          quidem aliquid! Aliquam cum quo dicta hic facilis dolore.
+        </p>
+      </div>
     </div>
   </section>
 </template>
@@ -49,5 +51,11 @@ section {
   width: 33.33%;
   padding: 48px 24px;
   color: rgb(211, 211, 211);
+}
+section:first-child {
+  padding-left: 48px;
+}
+section:last-child {
+  padding-right: 48px;
 }
 </style>

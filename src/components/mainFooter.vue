@@ -28,13 +28,7 @@ export default {
 </script>
 <style>
 footer {
-  background: rgb(148, 25, 29);
-  background: linear-gradient(
-    180deg,
-    rgba(148, 25, 29, 1) 0%,
-    rgba(195, 34, 39, 1) 66%,
-    rgba(3, 0, 1, 1) 100%
-  );
+  background: #1c1a1a;
   color: white;
   width: 100%;
   border-top: 3px solid #c32227;
