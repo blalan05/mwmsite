@@ -5,8 +5,8 @@
         <div class="highlights__container-img-container">
           <g-image src="~/assets/highlight_welding.jpg" alt="Welding Experts" />
         </div>
-        <h3>Welding Experts</h3>
         <div class="highlights__container-item-body">
+          <h3>Welding Experts</h3>
           <p>
             We are really good at what we do, so that’s why we call ourselves
             experts.
@@ -20,8 +20,8 @@
             alt="Custom Fabrication"
           />
         </div>
-        <h3>Custom Fabrication</h3>
         <div class="highlights__container-item-body">
+          <h3>Custom Fabrication</h3>
           <p>
             We make custom stuff, and we fabricate it. Thus why we call this
             custom fabrication.
@@ -32,8 +32,8 @@
         <div class="highlights__container-img-container">
           <g-image src="~/assets/highlight_hiring.jpg" alt="Hiring Experts" />
         </div>
-        <h3>Hiring Experts</h3>
         <div class="highlights__container-item-body">
+          <h3>Hiring Experts</h3>
           <p>
             Looking for a job? Well, we are looking for someone better than you,
             so move along.
@@ -44,8 +44,8 @@
         <div class="highlights__container-img-container">
           <g-image src="~/assets/highlight_promise.jpg" alt="MWM Promise" />
         </div>
-        <h3>MWM Promise</h3>
         <div class="highlights__container-item-body">
+          <h3>MWM Promise</h3>
           <p>
             We will always do the best we can to create a solution to your
             problem.
@@ -66,16 +66,16 @@ export default {
 .highlights__container-wrapper {
   background: #000259;
   background-image: url(~@/assets/highlights_bg.jpg);
-  padding: 2.5em 0;
+  padding: 2.5em;
   background-blend-mode: screen;
   background-position: top center;
 }
 .highlights__container-wrapper div.highlights__container-con {
-  width: 88%;
-  margin: 0 auto;
+  width: 100%;
 }
 .highlights__container-wrapper div.highlights__container-item {
   display: inline-block;
+  box-sizing: border-box;
   padding: 0 18px;
   width: 25%;
   text-align: left;

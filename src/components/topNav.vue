@@ -84,6 +84,7 @@ export default {
   max-width: 1080px;
   display: flex;
   justify-content: flex-end;
+  z-index: 200;
 }
 .topNav__container a {
   padding: 5px 18px;

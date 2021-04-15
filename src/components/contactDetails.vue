@@ -25,19 +25,19 @@ export default {
           name: "Parts Dept",
           person: "Ryan Goodhue",
           phone: "920-927-3854",
-          email: "",
+          email: "rgoodhue@mgrf.com",
         },
         {
           name: "Shop Dept",
           person: "Neel Huffman",
           phone: "920-927-3851",
-          email: "",
+          email: "nhuffman@mgrf.com",
         },
         {
           name: "Road Dept",
-          person: "Zoom Neuamn",
+          person: "Zoom Neuman",
           phone: "920-927-3851",
-          email: "",
+          email: "zneuman@mgrf.com",
         },
       ],
     };
@@ -47,13 +47,14 @@ export default {
 
 <style scoped>
 h2 {
-  color: rgb(211, 211, 211);
+  color: #d3d3d3;
   padding: 8px;
   margin-left: 4em;
   margin-right: 4em;
   border-bottom: 1px solid rgb(211, 211, 211);
 }
 .contactDetails__container {
+  padding: 2.8em;
   background: #9d1d21;
   text-align: center;
 }
@@ -62,7 +63,7 @@ h2 {
   padding: 18px 0;
 }
 .contact__container {
-  color: #1c1a1a;
+  color: #d3d3d3;
   width: 33.33%;
   text-align: center;
 }

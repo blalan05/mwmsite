@@ -4,20 +4,14 @@
       <h3>Field Service</h3>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-        mollitia maxime labore animi aspernatur molestiae culpa, beatae
-        blanditiis explicabo minima ab sunt alias aut non aperiam distinctio,
-        perspiciatis eveniet voluptatem facere, illo vel tempora quae porro!
-        Corporis fuga porro ratione quas totam!
+        mollitia maxime labore animi aspernatur molestiae!
       </p>
     </div>
     <div class="service__item">
       <h3>Shop Services</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe ipsum
-        exercitationem aliquam facilis illum dolorum soluta ex! Perspiciatis
-        corporis minima ea provident, laborum maxime corrupti consequuntur,
-        minus voluptate quod qui aspernatur ipsum nihil nobis officia aliquid.
-        Consequatur, hic dolore!
+        exercitationem aliquam facilis illum dolorum!
       </p>
     </div>
     <div class="service__item">
@@ -25,10 +19,7 @@
       <div class="service__item-body">
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla sint
-          aspernatur vero officiis! Aliquam optio minima atque, voluptatibus
-          omnis est laudantium excepturi debitis cumque accusamus similique
-          quisquam neque natus laborum magni possimus! Quae cupiditate provident
-          quidem aliquid! Aliquam cum quo dicta hic facilis dolore.
+          aspernatur vero officiis! Aliquam optio.
         </p>
       </div>
     </div>
@@ -51,6 +42,10 @@ section {
   width: 33.33%;
   padding: 48px 24px;
   color: rgb(211, 211, 211);
+}
+.service__item h3 {
+  text-transform: uppercase;
+  font-weight: 400;
 }
 section:first-child {
   padding-left: 48px;

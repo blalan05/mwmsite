@@ -26,6 +26,7 @@ export default {
   width: 100%;
   max-width: 1080px;
   top: 34px;
+  z-index: 200;
 }
 .megaMenu__nav {
   display: flex;
